@@ -1,8 +1,8 @@
-#prospects {
+.prospects-container {
   padding: 10px;
 }
 
-.suggested-prospect {
+.prospect-wrapper {
   margin: 10px;
   padding: 20px;
   background-color: #EEE;

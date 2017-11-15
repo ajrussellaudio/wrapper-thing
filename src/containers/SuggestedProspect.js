@@ -5,6 +5,7 @@ export default class SuggestedPropect extends React.Component {
   constructor(props) {
     super(props);
     this.handleSave = this.handleSave.bind(this);
+    this.handleRemove = this.handleRemove.bind(this);
   }
 
   handleSave() {
@@ -17,7 +18,7 @@ export default class SuggestedPropect extends React.Component {
 
   render() {
     return (
-      <div className="suggested-prospect">
+      <div className="prospect-wrapper">
         <button onClick={this.handleSave}>Save</button>
         <button onClick={this.handleRemove}>Remove</button>
         <Prospect {...this.props} />
