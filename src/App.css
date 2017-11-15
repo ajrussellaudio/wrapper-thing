@@ -1,0 +1,15 @@
+#prospects {
+  padding: 10px;
+}
+
+.suggested-prospect {
+  margin: 10px;
+  padding: 20px;
+  background-color: #EEE;
+  width: 400px;
+}
+
+.prospect {
+  padding: 20px;
+  background-color: #DDD;
+}
